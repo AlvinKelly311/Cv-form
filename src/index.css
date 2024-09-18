@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.cv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5rem;
+  margin-left: 6px;
+  margin-right: 6px;
+  gap: 5rem;
+}
+
+.header {
+  width: 98vw;
+  height: 30%;
+  background-color: black;
+  padding: 20px;
+  margin-left: 0.5rem;
+}
+
+.form-container {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+}
+
+.first {
+  padding: 10%;
+  background-color: black;
+  color: whitesmoke;
+  border-radius: 5%;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 10px;
+}
+
+form h1 {
+  background-color: white;
+  color: black;
+  position: relative;
+  bottom: 4.7rem;
+  text-align: center;
+}
+
+.check {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  gap: 5px;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 0.5em;
+  position: relative;
+  top: 1rem;
+}
+
+.btnn {
+  background-color: whitesmoke;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.btnn1 {
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+  position: relative;
+  top: 1rem;
+  border-radius: 13px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.form-control {
+  padding: 0.7rem;
+  border-radius: 0.7rem;
+}
+
+.place {
+  color: black;
+  font-size: 1rem;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.5rem;
+  position: relative;
+  top: 2rem;
+}
